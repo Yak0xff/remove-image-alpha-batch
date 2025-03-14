@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "title": "이미지 알파 채널 제거 도구",
+    "description": "간단하고 사용하기 쉬운 온라인 도구로, 이미지의 알파 채널(투명도)을 빠르게 제거하면서 이미지 품질을 유지합니다.",
+    "keywords": "이미지 처리,알파 채널,투명도 제거,이미지 편집,온라인 도구,PNG 변환,JPG 변환"
+  },
+  "home": {
+    "title": "이미지 알파 채널 제거 도구",
+    "description": "간단하고 사용하기 쉬운 온라인 도구로, 이미지의 알파 채널(투명도)을 빠르게 제거하면서 이미지 품질을 유지합니다.",
+    "howToUse": {
+      "title": "사용 방법",
+      "step1": "업로드 버튼을 클릭하거나 이미지를 드롭존에 드래그 앤 드롭하세요",
+      "step2": "출력 형식(JPG, PNG 등)을 선택하세요",
+      "step3": "다운로드 버튼을 클릭하여 처리된 이미지를 저장하세요"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": "알파 채널이란 무엇인가요?",
+      "a1": "알파 채널은 이미지의 투명도를 나타내는 정보입니다. 알파 채널을 제거하면 투명한 부분이 배경색(일반적으로 흰색)으로 대체됩니다.",
+      "q2": "어떤 이미지 형식이 지원되나요?",
+      "a2": "현재 PNG, WebP, TIFF 등 알파 채널이 있는 이미지 형식을 지원합니다. 출력 형식으로는 JPG, PNG, WebP 등을 선택할 수 있습니다.",
+      "q3": "처리 후 이미지 품질은 어떤가요?",
+      "a3": "고품질 이미지 처리 알고리즘을 사용하여 알파 채널을 제거하면서도 이미지의 선명도와 세부 사항을 유지합니다."
+    }
+  },
+  "imageUploader": {
+    "dropzone": {
+      "title": "여기에 이미지를 드롭하세요",
+      "or": "또는",
+      "browse": "파일 찾아보기"
+    },
+    "processing": "처리 중...",
+    "download": "다운로드",
+    "error": "이미지 처리 중 오류 발생",
+    "formatOptions": {
+      "title": "출력 형식 선택",
+      "jpg": "JPG",
+      "png": "PNG",
+      "webp": "WebP"
+    }
+  },
+  "header": {
+    "title": "이미지 알파 채널 제거 도구",
+    "description": "이미지의 알파 채널을 빠르게 제거"
+  },
+  "footer": {
+    "copyright": "© 2023 이미지 알파 채널 제거 도구",
+    "languages": "언어",
+    "madeWith": "Next.js와",
+    "by": "로 제작",
+    "description": "이미지 크기와 품질을 유지하면서 알파 채널(투명도)을 빠르게 제거할 수 있는 무료 온라인 도구입니다. PNG, JPG, JPEG, WEBP 등 다양한 형식을 지원합니다."
+  },
+  "dropzone": {
+    "title": "여기에 이미지를 드롭하거나 클릭하여 업로드하세요",
+    "titleActive": "이미지를 업로드하려면 마우스를 놓으세요",
+    "supportedFormats": "PNG, JPG, JPEG, WEBP 등 형식 지원"
+  },
+  "processing": {
+    "status": "이미지 처리 중입니다. 잠시만 기다려주세요..."
+  },
+  "gallery": {
+    "title": "처리된 이미지",
+    "count": "총 {count}개 이미지",
+    "downloadAll": "모두 다운로드",
+    "downloading": "다운로드 중...",
+    "remove": "삭제",
+    "info": "이미지 정보",
+    "status": "상태",
+    "hasAlpha": "알파 채널 있음",
+    "noAlpha": "알파 채널 없음",
+    "colorSpace": "색상 공간",
+    "currentFormat": "현재 형식"
+  },
+  "download": {
+    "title": "다운로드 옵션",
+    "current": "현재 형식"
+  },
+  "errors": {
+    "processError": "이미지 처리 중 오류 발생",
+    "downloadError": "이미지 다운로드 중 오류 발생",
+    "convertError": "이미지 형식 변환 중 오류 발생"
+  }
+} 

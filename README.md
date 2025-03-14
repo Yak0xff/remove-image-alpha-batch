@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 图片Alpha通道移除工具
 
-## Getting Started
+一款简单易用的在线工具，帮助您快速移除图片中的Alpha通道（透明度），保持图片质量不变。
 
-First, run the development server:
+## 功能特点
+
+- 🖼️ 支持多种图片格式：PNG, JPG, JPEG, WEBP
+- 🌍 多语言支持：简体中文、繁体中文、英文、日文、韩文
+- 🎨 自动移除图片Alpha通道（透明度）
+- 💾 支持多种格式导出
+- 📦 批量处理和下载
+
+## 技术栈
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- next-intl (国际化)
+- React Dropzone (文件上传)
+- JSZip (文件打包)
+
+## 开发指南
+
+### 安装依赖
+
+```bash
+npm install
+```
+
+### 启动开发服务器
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 构建生产版本
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 启动生产服务器
 
-## Learn More
+```bash
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 项目结构
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+├── app/                  # Next.js 应用目录
+│   ├── [locale]/         # 国际化路由
+│   └── layout.tsx        # 根布局
+├── components/           # 组件目录
+│   ├── image/            # 图像处理相关组件
+│   ├── layout/           # 布局组件
+│   └── ui/               # UI 组件
+├── config/               # 配置文件
+│   └── i18n.ts           # 国际化配置
+├── lib/                  # 工具库
+│   ├── types.ts          # 类型定义
+│   └── utils.ts          # 工具函数
+├── messages/             # 国际化消息
+│   ├── en.json           # 英文
+│   ├── zh-CN.json        # 简体中文
+│   ├── zh-TW.json        # 繁体中文
+│   ├── ja.json           # 日文
+│   └── ko.json           # 韩文
+├── middleware.ts         # Next.js 中间件
+└── styles/               # 样式文件
+    └── globals.css       # 全局样式
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 许可证
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT 

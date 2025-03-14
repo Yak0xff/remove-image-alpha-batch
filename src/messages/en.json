@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "title": "Image Alpha Channel Remover",
+    "description": "A simple and easy-to-use online tool to help you quickly remove alpha channels from images, supporting multiple image formats.",
+    "keywords": "image processing,alpha channel,transparency removal,image editing,online tool,PNG to JPG,image conversion"
+  },
+  "home": {
+    "title": "Image Alpha Channel Remover",
+    "description": "A simple and easy-to-use online tool to help you quickly remove alpha channels from images, supporting multiple image formats.",
+    "howToUse": {
+      "title": "How to Use",
+      "step1": "Click the upload button or drag and drop images to the upload area",
+      "step2": "Select output format (JPG, PNG, etc.)",
+      "step3": "Click the download button to save the processed image"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "What is an Alpha Channel?",
+      "a1": "An alpha channel is information in an image that represents transparency. After removing the alpha channel, transparent areas will be replaced with a background color (usually white).",
+      "q2": "Which image formats are supported?",
+      "a2": "Currently, we support PNG, WebP, TIFF, and other image formats with alpha channels. Output formats include JPG, PNG, WebP, and more.",
+      "q3": "How is the quality of processed images?",
+      "a3": "We use high-quality image processing algorithms to ensure clarity and detail are maintained while removing alpha channels."
+    }
+  },
+  "imageUploader": {
+    "dropzone": {
+      "title": "Drop images here",
+      "or": "or",
+      "browse": "Browse files"
+    },
+    "processing": "Processing...",
+    "download": "Download",
+    "error": "Error processing image",
+    "formatOptions": {
+      "title": "Select output format",
+      "jpg": "JPG",
+      "png": "PNG",
+      "webp": "WebP"
+    }
+  },
+  "header": {
+    "title": "Image Alpha Channel Remover",
+    "description": "Quickly remove alpha channels from images"
+  },
+  "footer": {
+    "copyright": "© 2023 Image Alpha Channel Remover",
+    "languages": "Languages",
+    "madeWith": "Made with Next.js and",
+    "by": "by",
+    "description": "A free online tool that helps you quickly remove alpha channels from images while maintaining image quality. Supports PNG, JPG, JPEG, WEBP and more formats."
+  },
+  "dropzone": {
+    "title": "Drop images here, or click to upload",
+    "titleActive": "Release to upload images",
+    "supportedFormats": "Supports PNG, JPG, JPEG, WEBP and more formats"
+  },
+  "processing": {
+    "status": "Processing images, please wait..."
+  },
+  "gallery": {
+    "title": "Processed Images",
+    "count": "Total {count} images",
+    "downloadAll": "Download All",
+    "downloading": "Downloading...",
+    "remove": "Remove",
+    "info": "Image Info",
+    "status": "Status",
+    "hasAlpha": "Has Alpha Channel",
+    "noAlpha": "No Alpha Channel",
+    "colorSpace": "Color Space",
+    "currentFormat": "Current Format"
+  },
+  "download": {
+    "title": "Download Options",
+    "current": "Current Format"
+  },
+  "errors": {
+    "processError": "Error processing image",
+    "downloadError": "Error downloading image",
+    "convertError": "Error converting image format"
+  }
+} 

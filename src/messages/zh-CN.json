@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "title": "图片Alpha通道移除工具",
+    "description": "一个简单易用的在线工具，帮助您快速移除图片的Alpha通道，支持多种图片格式。",
+    "keywords": "图片处理,Alpha通道,透明度移除,图片编辑,在线工具,PNG转JPG,图片转换"
+  },
+  "home": {
+    "title": "图片Alpha通道移除工具",
+    "description": "一个简单易用的在线工具，帮助您快速移除图片的Alpha通道，支持多种图片格式。",
+    "howToUse": {
+      "title": "使用方法",
+      "step1": "点击上传按钮或拖放图片到上传区域",
+      "step2": "选择输出格式（JPG、PNG等）",
+      "step3": "点击下载按钮保存处理后的图片"
+    },
+    "faq": {
+      "title": "常见问题",
+      "q1": "什么是Alpha通道？",
+      "a1": "Alpha通道是图片中用于表示透明度的信息。移除Alpha通道后，透明部分将被替换为背景色（通常为白色）。",
+      "q2": "支持哪些图片格式？",
+      "a2": "目前支持PNG、WebP、TIFF等带有Alpha通道的图片格式。输出格式可选择JPG、PNG、WebP等。",
+      "q3": "处理后的图片质量如何？",
+      "a3": "我们使用高质量的图像处理算法，确保在移除Alpha通道的同时保持图片的清晰度和细节。"
+    }
+  },
+  "imageUploader": {
+    "dropzone": {
+      "title": "拖放图片到这里",
+      "or": "或",
+      "browse": "浏览文件"
+    },
+    "processing": "处理中...",
+    "download": "下载",
+    "error": "处理图片时出错",
+    "formatOptions": {
+      "title": "选择输出格式",
+      "jpg": "JPG",
+      "png": "PNG",
+      "webp": "WebP"
+    }
+  },
+  "header": {
+    "title": "图片Alpha通道移除工具",
+    "description": "快速移除图片的Alpha通道"
+  },
+  "footer": {
+    "copyright": "© 2023 图片Alpha通道移除工具",
+    "languages": "语言",
+    "madeWith": "使用 Next.js 和",
+    "by": "制作者",
+    "description": "一个免费的在线工具，帮助您快速移除图片中的Alpha通道，保持图片质量。支持PNG、JPG、JPEG、WEBP等多种格式。"
+  },
+  "dropzone": {
+    "title": "拖放图片到这里，或点击上传",
+    "titleActive": "松开鼠标上传图片",
+    "supportedFormats": "支持 PNG、JPG、JPEG、WEBP 等格式"
+  },
+  "processing": {
+    "status": "正在处理图片，请稍候..."
+  },
+  "gallery": {
+    "title": "已处理图片",
+    "count": "共 {count} 张图片",
+    "downloadAll": "全部下载",
+    "downloading": "下载中...",
+    "remove": "删除",
+    "info": "图片信息",
+    "status": "状态",
+    "hasAlpha": "有Alpha通道",
+    "noAlpha": "无Alpha通道",
+    "colorSpace": "色彩空间",
+    "currentFormat": "当前格式"
+  },
+  "download": {
+    "title": "下载选项",
+    "current": "当前格式"
+  },
+  "errors": {
+    "processError": "处理图片时出错",
+    "downloadError": "下载图片时出错",
+    "convertError": "转换图片格式时出错"
+  }
+} 
