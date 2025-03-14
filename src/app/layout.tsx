@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: 'Image Alpha Channel Remover',
   },
   description: 'A simple and easy-to-use online tool that helps you quickly remove alpha channels from images while maintaining image quality. Support PNG, JPG, JPEG, WEBP formats.',
-  authors: [{ name: 'Your Name', url: 'https://github.com/yourusername' }],
+  authors: [{ name: 'Yak0xff', url: 'https://github.com/Yak0xff' }],
   keywords: ['image tool', 'alpha channel remover', 'image processing', 'transparency removal', 'batch processing', 'online tool'],
   robots: {
     index: true,
@@ -29,13 +29,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'zh_CN',
-    url: 'https://your-website-url.com/',
+    url: 'https://remove-image-alpha-batch.vercel.app',
     title: 'Image Alpha Channel Remover - Remove Transparency from Images',
     description: 'A simple and easy-to-use online tool that helps you quickly remove alpha channels from images while maintaining image quality.',
     siteName: 'Image Alpha Channel Remover',
     images: [
       {
-        url: 'https://your-website-url.com/og-image.jpg',
+        url: 'https://remove-image-alpha-batch.vercel.app/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Image Alpha Channel Remover Preview',
@@ -46,16 +46,16 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Image Alpha Channel Remover - Remove Transparency from Images',
     description: 'A simple and easy-to-use online tool that helps you quickly remove alpha channels from images while maintaining image quality.',
-    images: ['https://your-website-url.com/twitter-image.jpg'],
+    images: ['https://remove-image-alpha-batch.vercel.app/twitter-image.jpg'],
   },
   alternates: {
-    canonical: 'https://your-website-url.com',
+    canonical: 'https://remove-image-alpha-batch.vercel.app',
     languages: {
-      'zh-CN': 'https://your-website-url.com/zh-CN',
-      'zh-TW': 'https://your-website-url.com/zh-TW',
-      'en': 'https://your-website-url.com/en',
-      'ja': 'https://your-website-url.com/ja',
-      'ko': 'https://your-website-url.com/ko',
+      'zh-CN': 'https://remove-image-alpha-batch.vercel.app/zh-CN',
+      'zh-TW': 'https://remove-image-alpha-batch.vercel.app/zh-TW',
+      'en': 'https://remove-image-alpha-batch.vercel.app/en',
+      'ja': 'https://remove-image-alpha-batch.vercel.ap/ja',
+      'ko': 'https://remove-image-alpha-batch.vercel.app/ko',
     },
   },
 };
@@ -69,7 +69,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-PKVZ19KZW4`}
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -77,13 +77,13 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX');
+            gtag('config', 'G-PKVZ19KZW4');
           `}
         </Script>
         
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6076347298102292"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />

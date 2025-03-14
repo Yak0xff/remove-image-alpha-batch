@@ -51,12 +51,12 @@ export default function Footer() {
             <Heart className="h-4 w-4 text-red-500 fill-current" />
             <span>{t('by')}</span>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Yak0xff"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-600 hover:text-primary-700 transition-colors"
             >
-              Your Name
+              Yak.Software
             </a>
           </div>
           
@@ -73,7 +73,7 @@ export default function Footer() {
                 '@context': 'https://schema.org',
                 '@type': 'WebApplication',
                 'name': 'Image Alpha Channel Remover',
-                'url': 'https://your-website-url.com',
+                'url': 'https://remove-image-alpha-batch.vercel.app',
                 'description': t('description'),
                 'applicationCategory': 'DesignApplication',
                 'operatingSystem': 'Web',
@@ -84,8 +84,8 @@ export default function Footer() {
                 },
                 'author': {
                   '@type': 'Person',
-                  'name': 'Your Name',
-                  'url': 'https://github.com/yourusername'
+                  'name': 'Yak0xff',
+                  'url': 'https://github.com/Yak0xff'
                 }
               })
             }}

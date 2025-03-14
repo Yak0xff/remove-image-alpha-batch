@@ -52,7 +52,7 @@ export default async function LocaleLayout({
       <div className={`min-h-screen flex flex-col ${font.className}`}>
         <div className="fixed top-4 right-4 z-50 flex items-center space-x-4">
           <a
-            href="https://github.com/yourusername/your-repo"
+            href="https://github.com/Yak0xff/remove-image-alpha-batch"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 text-gray-500 hover:text-gray-700 transition-colors"

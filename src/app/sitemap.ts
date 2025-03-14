@@ -10,7 +10,7 @@ const SUPPORTED_LOCALES = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://your-website-url.com';
+  const baseUrl = 'https://remove-image-alpha-batch.vercel.app';
   
   // 为每种语言创建主页 URL
   const localeUrls = SUPPORTED_LOCALES.map(({ code }) => ({
